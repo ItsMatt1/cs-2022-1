@@ -41,12 +41,6 @@ Sim e sim, utilizo o fork.
 
 https://github.com/ItsMatt1
 
-      * Crie um repositório com o nome **cs-2022-1** e compartilhe com o professor. Meu usuário no _github_ é **gilmarioArantes**;
-
-      9.2.  Se não:
-      *  Crie uma conta e informe o nome do seu usuário;
-      *  Crie um repositório com o nome **cs-2022-1** e compartilhe com o professor.Meu usuário no _github_ é **gilmarioArantes**;
-
 10. Você possui algum impedimento para trabalhar em equipe?
 
 Não
