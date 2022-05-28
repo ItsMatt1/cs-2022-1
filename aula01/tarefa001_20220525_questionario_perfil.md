@@ -22,19 +22,19 @@ Ja fiz uns projetos em .net e c#.
 
 7. Tem conhecimento sobre bancos de dados relacionais?
 
--Não
+- Não
 
 
 8. Tem conhecimento sobre bancos de dados não relacionais (_NoSQL_)?
 
-Não
+- Não
 
 
 9. Tem conhecimento a respeito de controle de versões? Sabe usar corretamente softwares de controle de versão, dentre eles o _github_?
 
-Sim e sim, utilizo o fork.
+- Sim e sim, utilizo o fork client.
+- 
 10. Tem conta no _github_?
-
 
   9.1.  Se sim:
       * Informe o nome do seu usuário no _github_;
@@ -43,9 +43,8 @@ https://github.com/ItsMatt1
 
 10. Você possui algum impedimento para trabalhar em equipe?
 
-Não
-
+- Não
 
 11. Você possui equipamento adequado para a implementação das atividades relacionadas à disciplina? Atividades complementares, extra-classe.
 
-Sim
+- Sim
