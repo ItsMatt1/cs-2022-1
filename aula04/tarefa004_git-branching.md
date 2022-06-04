@@ -2,7 +2,7 @@
 
 1. Qual o nome do branch padrão do Git?
 ```
-Master
+Master.
 ```
 2. O que o comando **<code>git branch nome</code>** realiza?
 ```
