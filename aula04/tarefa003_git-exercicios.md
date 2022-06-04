@@ -3,32 +3,31 @@
 Responda as questões abaixo (exercite os comandos do git correspondentes). Lembre-se de que o “interessante” não é exatamente o conjunto de respostas, mas o processo de obtê-las e a experiência obtida com a execução dos comandos.
 
 1. Qual o comando para obter a versão instalada do Git?
-
 ```
 git --version
 ```
-
 2. Qual o efeito da execução de cada um dos comandos abaixo?
   a. git help
-
-  R = Mostra uma lista com os principais comandos do git e o que eles fazem.
-
+```
+Mostra uma lista com os principais comandos do git e o que eles fazem.
+```
   b. git help checkout
 
+```
   R = Abre uma página explicando o que é o checkout do git, atualiza os arquivos na árvore de trabalho para corresponder à versão no índice ou na árvore especificada.
-
+```
   c. git help merge
-
-  R = Abre uma página explicando o que é o merge do git, incorpora as alterações dos commits nomeados (desde o momento em que seus históricos divergiram da ramificação atual) na ramificação atual.
-
+```
+Abre uma página explicando o que é o merge do git, incorpora as alterações dos commits nomeados (desde o momento em que seus históricos divergiram da ramificação atual) na ramificação atual.
+```
   d. git init
-
-  R = O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
-
+```
+O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
+```
   e. git add --all
-
+```
   R = Coloca todos arquivos (novos, modificados e removidos) no index/stage.
-
+```
   f. git add -u
 
   R = Coloca no Stage apenas arquivos modificados e removidos.
@@ -39,23 +38,23 @@ git --version
   i. git reset --hard
   j. git log -27
 
-3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
-4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
-5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
-6. Qual o comando para efetuar um _commit_?
-7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
-8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
-9. O que acontece se o seu repositório local for acidentalmente removido?
-10. Como clonar um repositório remoto?
-11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
-12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
-13. Qual o comando para criar um repositório local?
-14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
-15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
-16. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
-17. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
-18. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
-19. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
+1. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
+2. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
+3. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
+4. Qual o comando para efetuar um _commit_?
+5. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
+6. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
+7. O que acontece se o seu repositório local for acidentalmente removido?
+8.  Como clonar um repositório remoto?
+9.  Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
+10. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
+11. Qual o comando para criar um repositório local?
+12. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
+13. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)
+14. O Git faz uso do valor de hash conhecido por SHA1. O que isto significa? Qual o propósito? O que é SHA1?
+15. Qual a palavra para indicar o último _commit_ em vez do valor de hash SHA1 correspondente?
+16. Quando se cria dois arquivos usando um editor de texto qualquer e, na sequência, executamos o comando **git add -u**, os dois arquivos criados passam de _untracked_ para _new file_?
+17. Qual o efeito da execução dos dois comandos abaixo, nesta ordem, em um dado repositório?
 **git reset --soft HEAD~1**
 **git reset --hard**
 20. Após o emprego de um ambiente integrado de desenvolvimento (IDE), é comum a criação de arquivos e diretórios. Qual o comando que podemos empregar para remover arquivos e diretórios _untracked_?
