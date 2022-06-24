@@ -23,26 +23,26 @@ Um aplicativo Limbo consiste em um ou mais módulos, cada um dos quais fornece u
 outro módulo inclui sua parte de declaração. Durante a execução, um módulo anexa outro módulo dinamicamente declarando o identificador de tipo do outro módulo e um 
 local de onde carregar o código do objeto para sua implementação. Um exemplo: 
 
-1	implement Command;
+	implement Command;
 
-2	include "sys.m";
-3	include "draw.m";
+	include "sys.m";
+	include "draw.m";
 
-4	sys:	Sys;
+	sys:	Sys;
 
-5	Command: module
+	Command: module
 	{
-6	    init: fn (ctxt: ref Draw->Context, argv: list of string);
-7	};
-8	# The canonical "Hello world" program, enhanced
-9	init(ctxt: ref Draw->Context, argv: list of string)
-10	{
-11		sys = load Sys Sys->PATH;
-12		sys->print("hello world\n");
-13		for (; argv!=nil; argv = tl argv)
-14			sys->print("%s ", hd argv);
-15		sys->print("\n");
-16	}
+	    init: fn (ctxt: ref Draw->Context, argv: list of string);
+	};
+	# The canonical "Hello world" program, enhanced
+	init(ctxt: ref Draw->Context, argv: list of string)
+	{
+		sys = load Sys Sys->PATH;
+		sys->print("hello world\n");
+		for (; argv!=nil; argv = tl argv)
+			sys->print("%s ", hd argv);
+		sys->print("\n");
+	}
 
 
 ## Ruby
