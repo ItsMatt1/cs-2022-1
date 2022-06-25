@@ -48,7 +48,7 @@ local de onde carregar o código do objeto para sua implementação. Um exemplo:
 ## Ruby
 Ruby é uma linguagem dinâmica e interpretada que ficou famosa por levar a simplicidade e leitura de código (nível humano) ao extremo.
 Ela foi concebida por "Matz" em 1993 com uma combinação de facilitadade de python e da real implementação de orientação a objetos como o smalltalk, mas
-ela ficou famosa e realmente começou a ser usada com a criação do RubyOnRails
+ela ficou famosa e realmente começou a ser usada com a criação do RubyOnRails, um sistema de Model-View-Controller, assim diminuindo a complexidade para fazer um app fullstack. Alguns dos exemplos que ele foi utilizado: Twitter, Github, airbnb entre outros.
 
 
 ## Lua - Linguagem escolhida para aprofundar
