@@ -1,5 +1,6 @@
 package endereco
 
-class Pais {
-    public lateinit var nome : String
+open class Pais {
+    open lateinit var nome : String
+
 }

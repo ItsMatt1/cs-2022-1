@@ -1,6 +1,6 @@
 package endereco
 
-open class Estado : Pais(), {
+open class Estado : Pais() {
     private lateinit var sigla : String
-    public lateinit var nome : String
+    override lateinit var nome : String
 }
