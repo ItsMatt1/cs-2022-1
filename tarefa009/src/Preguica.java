@@ -7,7 +7,11 @@ public class Preguica extends AnimalTeste{
     }
 
     @Override
-    public void correr()
+    public void correr() {
+
+    }
+
+    public void subirArvores()
     {
 
     }
