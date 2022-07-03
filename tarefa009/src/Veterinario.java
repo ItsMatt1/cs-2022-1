@@ -1,9 +1,8 @@
 public class Veterinario {
 
-    public void examinar(Cachorro dog, Cavalo horse, Preguica sloth)
+    public void examinar(Animal anim)
     {
-        dog.emitirSom();
-        horse.emitirSom();
-        sloth.emitirSom();
+        anim.emitirSom();
+        anim.correr();
     }
 }

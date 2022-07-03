@@ -1,4 +1,8 @@
-public class Cavalo extends AnimalTeste{
+public class Cavalo extends Animal{
+
+    public Cavalo(String nome) {
+        super(nome);
+    }
 
     @Override
     public void emitirSom()
@@ -9,6 +13,6 @@ public class Cavalo extends AnimalTeste{
     @Override
     public void correr()
     {
-
+        System.out.println("Correndo!");
     }
 }

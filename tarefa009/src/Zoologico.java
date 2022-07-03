@@ -3,15 +3,12 @@ import java.util.List;
 
 public class Zoologico {
 
-    AnimalTeste[] jaula = new AnimalTeste[10];
+    private Animal[] jaulas;
 
-//    private List<AnimalTeste> jaula = new ArrayList<>();
-//
-//    public List<AnimalTeste> getJaula() {
-//        return jaula;
-//    }
-//
-//    public void setJaula(List<AnimalTeste> jaula) {
-//        this.jaula = jaula;
-//    }
+    public Zoologico(int n){
+        this.jaulas = new Animal[n];
+    }
+    public Zoologico(){
+        this.jaulas= new Animal[10];
+    }
 }

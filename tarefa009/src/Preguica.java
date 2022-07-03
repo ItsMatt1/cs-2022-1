@@ -1,4 +1,8 @@
-public class Preguica extends AnimalTeste{
+public class Preguica extends Animal{
+
+    public Preguica(String nome) {
+        super(nome);
+    }
 
     @Override
     public void emitirSom()
@@ -7,13 +11,10 @@ public class Preguica extends AnimalTeste{
     }
 
     @Override
-    public void correr() {
-
-    }
-
-    public void subirArvores()
+    public void correr()
     {
-
+        System.out.println("Eu não corro, eu subo em arvores.");
     }
+
 
 }

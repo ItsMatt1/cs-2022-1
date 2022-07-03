@@ -1,4 +1,8 @@
-public class Cachorro extends AnimalTeste{
+public class Cachorro extends Animal{
+
+    public Cachorro(String nome) {
+        super(nome);
+    }
 
     @Override
     public void emitirSom()
@@ -9,7 +13,7 @@ public class Cachorro extends AnimalTeste{
     @Override
     public void correr()
     {
-
+        System.out.println("Correndo!");
     }
 
 }

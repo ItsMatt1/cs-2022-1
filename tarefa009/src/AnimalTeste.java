@@ -1,12 +1,19 @@
-abstract public class AnimalTeste {
+public class AnimalTeste {
 
-    private String nome;
-    private String idade;
+    public static void main(String[] args) {
 
-    abstract public void emitirSom();
+        Animal dog = new Cachorro("Crystal");
+        dog.emitirSom();
+        dog.correr();
 
-    abstract public void correr();
+        Animal horse = new Cavalo("Cavalo Branco de Napoleão");
+        horse.emitirSom();
+        horse.correr();
 
+        Animal sloth = new Preguica("Cap");
+        sloth.emitirSom();
+        sloth.correr();
 
+    }
 
 }
