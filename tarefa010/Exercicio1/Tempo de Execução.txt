@@ -1,0 +1,10 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Ordenando usando método Iterativo um vetor de 100   posições: 22 milisegundos.
+Ordenando usando método Iterativo um vetor de 1000  posições: 62 milisegundos.
+Ordenando usando método Iterativo um vetor de 10000 posições: 258 milisegundos.
+
+
+Ordenando usando método Recursivo um vetor de 100   posições: 23 milisegundos.
+Ordenando usando método Recursivo um vetor de 1000  posições: 64 milisegundos.
+Ordenando usando método Recursivo um vetor de 10000 posições: 242 milisegundos.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
